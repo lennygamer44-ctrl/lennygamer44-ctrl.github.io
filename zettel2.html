@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q13 Reli-Lernzettel: Das Reich Gottes (G. M. Martin)</title>
+    <!-- Tailwind CSS für das Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        reli: {
+                            light: '#f8fafc',
+                            primary: '#3b82f6', // Blau für Ruhe/Himmel
+                            secondary: '#8b5cf6', // Violett für Theologie/Eschatologie
+                            dark: '#0f172a',
+                            accent: '#f59e0b' // Gold für Reich Gottes
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #f1f5f9; }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="font-sans text-slate-800 antialiased leading-relaxed">
+
+    <!-- Sticky Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-card border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center overflow-x-auto whitespace-nowrap">
+            <div class="font-bold text-xl text-reli-secondary flex items-center gap-2">
+                <i class="ph-fill ph-student"></i> Q13 Notfall-Retter
+            </div>
+            <div class="flex gap-4 text-sm font-semibold">
+                <a href="#intro" class="hover:text-reli-primary transition">1. Basics</a>
+                <a href="#analyse" class="hover:text-reli-primary transition">2. Textanalyse</a>
+                <a href="#theology" class="hover:text-reli-primary transition">3. Die Theologie</a>
+                <a href="#15punkte" class="text-reli-accent hover:text-amber-600 transition flex items-center gap-1">
+                    <i class="ph-fill ph-star"></i> 15-Punkte-Plan
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="intro" class="pt-28 pb-16 px-4 bg-gradient-to-br from-slate-900 to-reli-dark text-white text-center">
+        <div class="max-w-4xl mx-auto">
+            <span class="inline-block py-1 px-3 rounded-full bg-reli-primary/20 text-reli-primary font-semibold text-sm mb-4 border border-reli-primary/30">
+                Evangelische Religionslehre • Abfrage-Vorbereitung
+            </span>
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 font-serif">
+                Das Reich Gottes als <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Gegenwart und Zukunft</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 font-light mb-8 max-w-2xl mx-auto">
+                Ein Leitfaden durch den Text von Gerhard Marcel Martin. Keine Panik, wenn du bisher nicht aufgepasst hast. Wir bauen das jetzt logisch und verständlich auf.
+            </p>
+            <div class="flex justify-center gap-4 text-sm">
+                <div class="flex items-center gap-2"><i class="ph ph-clock text-amber-400 text-xl"></i> Lesezeit: ca. 15 Min</div>
+                <div class="flex items-center gap-2"><i class="ph ph-target text-green-400 text-xl"></i> Ziel: Volle Punktzahl</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-12 space-y-16">
+
+        <!-- SECTION 1: Absolute Basics (Level 0) -->
+        <section class="glass-card rounded-2xl p-8 md:p-12 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 text-slate-100 opacity-50">
+                <i class="ph-fill ph-baby text-9xl"></i>
+            </div>
+            <h2 class="text-3xl font-bold mb-6 text-slate-900 flex items-center gap-3 relative z-10">
+                <i class="ph-fill ph-info text-reli-primary"></i> 1. Die absoluten Basics (Das musst du wissen)
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8 relative z-10">
+                <div class="space-y-4">
+                    <h3 class="font-bold text-xl text-reli-secondary border-b pb-2">Was ist das "Reich Gottes"?</h3>
+                    <p>Das Reich Gottes (griech. <em>Basileia tou theou</em>) ist <strong>das zentrale Thema</strong> der Predigten von Jesus. Es meint keinen Ort auf der Landkarte (kein Land mit Grenzen), sondern einen <strong>Zustand</strong> oder eine <strong>Herrschaft</strong>. Es ist da, wo Gottes Wille (Liebe, Frieden, Gerechtigkeit) geschieht.</p>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="font-bold text-xl text-reli-secondary border-b pb-2">Wer ist Johannes der Täufer?</h3>
+                    <p>Johannes war eine Art Mentor/Vorgänger von Jesus (siehe Bild von Hieronymus Bosch auf deinem Blatt). Er war ein extremer Asket, lebte in der Wüste und predigte: <em>"Das Ende ist nah! Kehrt um, sonst werdet ihr vernichtet! Gott kommt als harter Richter!"</em></p>
+                </div>
+                <div class="col-span-1 md:col-span-2 bg-blue-50 border border-blue-200 rounded-xl p-6 mt-4">
+                    <h4 class="font-bold text-blue-800 mb-2 flex items-center gap-2">
+                        <i class="ph-fill ph-warning-circle"></i> Der Kernkonflikt deines Arbeitsblattes:
+                    </h4>
+                    <p class="text-blue-900">
+                        Das Arbeitsblatt vergleicht die <strong>Theologie von Johannes dem Täufer</strong> (Drohung, Angst, Weltuntergang) mit der <strong>Theologie von Jesus</strong> (Liebe, Gegenwart Gottes, Neuanfang). Jesus kommt aus der Schule des Johannes, <strong>distanziert sich dann aber radikal von ihm</strong>. Das ist die Hauptaussage des Textes!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: Textanalyse (Level: Grundverständnis) -->
+        <section id="analyse" class="glass-card rounded-2xl p-8 md:p-12">
+            <h2 class="text-3xl font-bold mb-8 text-slate-900 flex items-center gap-3 border-b-2 border-reli-primary pb-4">
+                <i class="ph-fill ph-magnifying-glass text-reli-primary"></i> 2. Textanalyse: Absatz für Absatz übersetzt
+            </h2>
+            
+            <div class="space-y-12">
+                <!-- Absatz 1 & 2 -->
+                <div class="grid md:grid-cols-12 gap-6 items-start">
+                    <div class="md:col-span-4 bg-slate-100 p-5 rounded-lg border-l-4 border-slate-400 text-sm font-serif italic">
+                        "Jesus steht mit seiner Botschaft in seiner Zeit... Beide sind von den politischen und religiösen Instanzen verfolgt... Jesus selbst hat nicht getauft, er hat sich von der Johannes-Gruppe getrennt. Bei ihm ist der Bußruf keine Drohung..." (Zeilen 1-14)
+                    </div>
+                    <div class="md:col-span-8">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3 flex items-center gap-2">
+                            <span class="bg-reli-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">1</span> 
+                            Trennung vom Weltuntergang
+                        </h3>
+                        <p class="mb-3"><strong>Was Martin hier sagt:</strong> Jesus und Johannes waren beides "Apokalyptiker" (sie glaubten, die Welt, wie sie ist, endet bald). Beide eckten bei den Herrschern an. <strong>ABER:</strong> Jesus macht einen Cut.</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-700">
+                            <li>Johannes droht: "Tut Buße, sonst Strafe!" (Angstpädagogik).</li>
+                            <li>Jesus lädt ein: "Tut Buße (denkt um), weil Gott gnädig ist und schon hier ist!" (Sinnesänderung durch Liebe).</li>
+                            <li>Jesus korrigiert die harte Täuferbotschaft durch die <strong>Unmittelbarkeit</strong> (direkte Nähe) eines liebenden Gottes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Absatz 3 -->
+                <div class="grid md:grid-cols-12 gap-6 items-start">
+                    <div class="md:col-span-4 bg-slate-100 p-5 rounded-lg border-l-4 border-reli-primary text-sm font-serif italic">
+                        "Entsprechend redet Jesus von Gott... nicht als von dem endzeitlichen Richter, sondern von dem liebenden Vater... Jesu Wirklichkeitsansage ist: Der Augenblick ist gekommen... Reich Gottes – das ist der barmherzige Samariter der Normalfall..." (Zeilen 15-30)
+                    </div>
+                    <div class="md:col-span-8">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3 flex items-center gap-2">
+                            <span class="bg-reli-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">2</span> 
+                            Die "Wirklichkeitsansage" (WICHTIGES WORT!)
+                        </h3>
+                        <p class="mb-3"><strong>Das ist der wichtigste Absatz für deine Abfrage!</strong> Jesus predigt keine ferne Zukunftsvision. Er macht eine <em>Wirklichkeitsansage</em>: Das Reich Gottes ist <strong>JETZT GERADE</strong> da ("Gegenwart und Güte Gottes werden sichtbar").</p>
+                        <div class="bg-purple-50 p-4 rounded-lg border border-purple-200 mt-4">
+                            <h4 class="font-bold text-purple-800 mb-1">Beispiele (Lukas 15 & 10):</h4>
+                            <p class="text-sm text-purple-900">Martin erwähnt Gleichnisse. Der verlorene Sohn (Lk 15): Der Vater bestraft den abtrünnigen Sohn nicht, sondern feiert ein Fest. Der barmherzige Samariter (Lk 10): Feindesliebe wird praktisch. Martin sagt: Das Reich Gottes ist dort, wo dieses Verhalten der <strong>Normalfall</strong> wird (und nicht nur eine schöne Ausnahme).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Absatz 4 -->
+                <div class="grid md:grid-cols-12 gap-6 items-start">
+                    <div class="md:col-span-4 bg-slate-100 p-5 rounded-lg border-l-4 border-amber-400 text-sm font-serif italic">
+                        "Die alte, dem Elend und der Gottesferne preisgegebene Welt muss nicht erst vollends zu ihrem Ende kommen... Auferstehung findet vor dem Tode statt." (Zeilen 31-38)
+                    </div>
+                    <div class="md:col-span-8">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3 flex items-center gap-2">
+                            <span class="bg-reli-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">3</span> 
+                            Auferstehung vor dem Tod
+                        </h3>
+                        <p class="mb-3"><strong>Was Martin hier sagt:</strong> Wir müssen nicht auf den Kalendertag des Weltuntergangs ("apokalyptische Kalenderzeit") warten, damit es gut wird. Gottes Herrlichkeit bricht <strong>mitten in unserem Elend</strong> schon jetzt herein.</p>
+                        <p class="text-slate-700 font-semibold italic">"Auferstehung findet vor dem Tode statt" bedeutet:</p>
+                        <p class="text-slate-700">Menschen können schon jetzt in diesem Leben neu anfangen, Vergebung erfahren und "aufleben", auch wenn sie biologisch noch gar nicht gestorben sind. Die Veränderung passiert im Hier und Jetzt.</p>
+                    </div>
+                </div>
+
+                <!-- Absatz 5 -->
+                <div class="grid md:grid-cols-12 gap-6 items-start">
+                    <div class="md:col-span-4 bg-slate-100 p-5 rounded-lg border-l-4 border-green-500 text-sm font-serif italic">
+                        "Diese doppelte Erfahrung... 'Und das Licht scheint in der Finsternis...' (Joh 1,5). ... 'Die Welt ist herrlich - die Welt ist schrecklich. Es kann mir nichts geschehen - Ich bin in größter Gefahr.' (Gollwitzer)" (Zeilen 39-45)
+                    </div>
+                    <div class="md:col-span-8">
+                        <h3 class="text-xl font-bold text-slate-800 mb-3 flex items-center gap-2">
+                            <span class="bg-reli-primary text-white w-8 h-8 rounded-full flex items-center justify-center text-sm">4</span> 
+                            Das Paradoxon (Der Widerspruch)
+                        </h3>
+                        <p class="mb-3">Hier wird das "Schon jetzt" und "Noch nicht" zusammengefasst (siehe nächstes Kapitel). Das Zitat von Gollwitzer (einem berühmten Theologen) ist genial für die Klausur/Abfrage:</p>
+                        <ul class="list-disc pl-5 space-y-2 text-slate-700">
+                            <li><strong>Die Welt ist schrecklich / Ich bin in Gefahr:</strong> Das ist die Realität (Kriege, Krankheiten, Leid). Das alte System ist noch da.</li>
+                            <li><strong>Die Welt ist herrlich / Mir kann nichts geschehen:</strong> Das ist die Perspektive des Reiches Gottes. Weil Gott da ist, hat das Böse nicht das letzte Wort. Der Gläubige hat eine tiefe innere Sicherheit (Geborgenheit).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Theologische Fachbegriffe (Level: Transfer) -->
+        <section id="theology" class="glass-card rounded-2xl p-8 md:p-12 bg-gradient-to-br from-indigo-50 to-purple-50 border-t-8 border-reli-secondary">
+            <h2 class="text-3xl font-bold mb-6 text-slate-900 flex items-center gap-3">
+                <i class="ph-fill ph-book-open-text text-reli-secondary"></i> 3. Fachwissen (Damit beeindruckst du den Lehrer)
+            </h2>
+            <p class="mb-8 text-lg text-slate-700">Wenn du diese zwei Begriffe in der Abfrage korrekt verwendest, springt die Note direkt nach oben. Das Arbeitsblatt von Martin behandelt exakt dieses theologische Problem.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Präsentische Eschatologie -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <div class="text-3xl mb-4">🟢</div>
+                    <h3 class="font-bold text-xl mb-2 text-green-700">Präsentische Eschatologie (Schon da)</h3>
+                    <p class="text-sm text-slate-600 mb-4"><em>"Präsentisch" = in der Gegenwart.</em></p>
+                    <p class="text-slate-800">
+                        Das ist der Schwerpunkt von Jesus nach diesem Text. Das Reich Gottes bricht <strong>jetzt in diesem Moment</strong> an. Wenn Kranke geheilt werden, wenn Ausgestoßene (Zöllner, Sünder) an den Tisch geholt werden, dann ist das Reich Gottes bereits Realität.
+                    </p>
+                    <div class="mt-4 p-3 bg-green-50 rounded text-sm text-green-800 border border-green-200">
+                        <strong>Beleg im Text:</strong> "Jesu Wirklichkeitsansage ist: Der Augenblick ist gekommen, die Zeit ist da" (Z. 20-21).
+                    </div>
+                </div>
+
+                <!-- Futuristisch / Apokalyptisch -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+                    <div class="text-3xl mb-4">⏳</div>
+                    <h3 class="font-bold text-xl mb-2 text-amber-600">Futuristische Eschatologie (Noch nicht)</h3>
+                    <p class="text-sm text-slate-600 mb-4"><em>"Futuristisch" = in der Zukunft.</em></p>
+                    <p class="text-slate-800">
+                        Das war eher die Position von Johannes dem Täufer. Die Welt ist schlecht, und Gott wird irgendwann in der Zukunft (am "Jüngsten Tag") kommen, die Welt vernichten und ein neues Reich aufbauen. Alles liegt in der Zukunft.
+                    </p>
+                    <div class="mt-4 p-3 bg-amber-50 rounded text-sm text-amber-800 border border-amber-200">
+                        <strong>Beleg im Text:</strong> Jesus schließt aus, dass das Gericht "erst in einer zukünftigen apokalyptischen Kalenderzeit" (Z. 34-35) geschieht.
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 bg-reli-dark text-white p-6 rounded-xl text-center shadow-lg transform hover:scale-[1.02] transition duration-300">
+                <h4 class="font-bold text-2xl mb-2 text-amber-400">Die Lösung: "Schon jetzt – aber noch nicht ganz"</h4>
+                <p class="text-lg">
+                    (Fachbegriff: <strong>Dialektik / eschatologischer Vorbehalt</strong>). Jesus vertritt eine Mischung! Das Reich Gottes hat mit Jesus <em>schon angefangen</em> (präsentisch), aber es ist in der Welt <em>noch nicht vollendet</em> (es gibt noch Leid und Tod). Deshalb beten Christen im Vaterunser: "Dein Reich <strong>komme</strong>" (es ist noch nicht final da). Das drückt der Gollwitzer-Satz am Ende des Textes perfekt aus!
+                </p>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Der 15-Punkte Plan (Das Verhör simulieren) -->
+        <section id="15punkte" class="glass-card rounded-2xl p-8 md:p-12 border-t-8 border-reli-accent">
+            <h2 class="text-3xl font-bold mb-6 text-slate-900 flex items-center gap-3">
+                <i class="ph-fill ph-shooting-star text-reli-accent text-4xl"></i> Der 15-Punkte-Plan für morgen
+            </h2>
+            <p class="mb-8 text-lg text-slate-700">Hier simulieren wir die Abfrage. Lerne die Antworten nicht 1:1 auswendig, sondern verstehe das Prinzip, wie du argumentieren musst.</p>
+
+            <div class="space-y-6">
+                <!-- Frage 1 -->
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center p-6 font-bold text-lg text-slate-800 hover:bg-slate-50 transition">
+                        <span class="flex items-center gap-3">
+                            <i class="ph-fill ph-question text-reli-primary text-2xl"></i> 
+                            Lehrer: "Erkläre den Unterschied im Gottesbild von Johannes dem Täufer und Jesus anhand des Textes."
+                        </span>
+                        <i class="ph ph-caret-down transform group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="p-6 pt-0 border-t border-slate-100 bg-slate-50 text-slate-700">
+                        <p class="mb-2"><strong>Deine 15-Punkte-Antwort:</strong></p>
+                        <p>"Johannes der Täufer vertritt ein apokalyptisches Gottesbild: Er sieht Gott als den nahenden, strengen Richter. Seine Botschaft ist eine Drohung: Tut Buße, sonst werdet ihr beim Weltuntergang vernichtet. Jesus hingegen korrigiert diese Sichtweise radikal. Laut dem Text von Martin spricht Jesus von Gott als dem 'liebenden Vater'. Bei Jesus ist der Ruf zur Umkehr keine Drohung mehr, sondern eine Einladung. Jesus bringt die Unmittelbarkeit und Gnade Gottes ins Spiel. Während Johannes das Gericht in der Zukunft erwartet, sagt Jesus: Das Reich Gottes und die Güte Gottes sind im Hier und Jetzt bereits anwesend."</p>
+                    </div>
+                </details>
+
+                <!-- Frage 2 -->
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center p-6 font-bold text-lg text-slate-800 hover:bg-slate-50 transition">
+                        <span class="flex items-center gap-3">
+                            <i class="ph-fill ph-question text-reli-primary text-2xl"></i> 
+                            Lehrer: "Was meint der Autor Martin mit dem Satz 'Auferstehung findet vor dem Tode statt'?"
+                        </span>
+                        <i class="ph ph-caret-down transform group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="p-6 pt-0 border-t border-slate-100 bg-slate-50 text-slate-700">
+                        <p class="mb-2"><strong>Deine 15-Punkte-Antwort:</strong></p>
+                        <p>"Das ist der Kern der präsentischen Eschatologie in diesem Text. Normalerweise denken wir bei 'Auferstehung' an das Leben nach dem biologischen Tod am Ende der Zeit. Martin argumentiert aber, dass durch Jesu Wirken das Reich Gottes schon jetzt in unsere elende Welt einbricht. 'Auferstehung vor dem Tod' bedeutet metaphorisch, dass Menschen schon im jetzigen Leben aus ihren 'Toden' – also aus Angst, Sünde, Egoismus oder Verzweiflung – befreit werden. Wenn Gerechtigkeit, Liebe und Frieden (wie beim barmherzigen Samariter) hier und heute geübt werden, dann erleben wir diese Auferstehungskraft bereits jetzt, und nicht erst in einer fernen Zukunft."</p>
+                    </div>
+                </details>
+
+                <!-- Frage 3 -->
+                <details class="group bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden cursor-pointer">
+                    <summary class="flex justify-between items-center p-6 font-bold text-lg text-slate-800 hover:bg-slate-50 transition">
+                        <span class="flex items-center gap-3">
+                            <i class="ph-fill ph-question text-reli-primary text-2xl"></i> 
+                            Lehrer: "Ordne das Helmut-Gollwitzer-Zitat am Ende ('Die Welt ist herrlich - schrecklich...') theologisch ein."
+                        </span>
+                        <i class="ph ph-caret-down transform group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="p-6 pt-0 border-t border-slate-100 bg-slate-50 text-slate-700">
+                        <p class="mb-2"><strong>Deine 15-Punkte-Antwort:</strong></p>
+                        <p>"Das Zitat bringt die paradoxe Lebenserfahrung eines Christen auf den Punkt, die man in der Theologie als das Spannungsverhältnis von 'Schon jetzt' und 'Noch nicht' bezeichnet. 'Die Welt ist schrecklich / Ich bin in größter Gefahr' erkennt absolut realistisch an, dass die alte, gefallene Welt mit all ihrem Leid und der Gottesferne noch existiert. Wir sind mittendrin. Gleichzeitig gilt durch Jesu Wirklichkeitsansage: 'Die Welt ist herrlich / Es kann mir nichts geschehen'. Das drückt das tiefe Vertrauen aus, dass Gott das letzte Wort hat. Wer an das anbrechende Reich Gottes glaubt, verliert die existenzielle Angst, selbst wenn er von der realen Welt bedroht wird."</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- CHEAT SHEET / BUZZWORDS -->
+        <section class="mb-12">
+            <h3 class="text-2xl font-bold mb-4 text-slate-800">Deine Buzzword-Liste (Morgen unbedingt einbauen!)</h3>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full font-semibold border border-indigo-200 shadow-sm">Eschatologische Ethik</span>
+                <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-semibold border border-blue-200 shadow-sm">Präsentische Eschatologie</span>
+                <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full font-semibold border border-purple-200 shadow-sm">Wirklichkeitsansage Jesu</span>
+                <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full font-semibold border border-green-200 shadow-sm">Gnade statt Gericht</span>
+                <span class="px-4 py-2 bg-amber-100 text-amber-800 rounded-full font-semibold border border-amber-200 shadow-sm">Schon-Jetzt / Noch-Nicht</span>
+                <span class="px-4 py-2 bg-rose-100 text-rose-800 rounded-full font-semibold border border-rose-200 shadow-sm">Paradoxon des Glaubens</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center">
+        <p class="mb-2">Viel Erfolg morgen in der Abfrage! Atme tief durch, sprich langsam und nutze die Fachbegriffe bewusst.</p>
+        <p class="text-sm">Du bist in der Q13, du hast das analytische Denken drauf. Du rockst das! 🚀</p>
+    </footer>
+
+</body>
+</html>
