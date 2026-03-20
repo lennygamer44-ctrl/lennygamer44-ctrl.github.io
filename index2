@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lernzettel: Epochen, Techniken & Textsorten</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f1f5f9; }
+        .card-hover { transition: all 0.3s ease-in-out; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        .term-highlight { background-color: #fef3c7; color: #b45309; font-weight: 600; padding: 2px 6px; border-radius: 4px; }
+        .expert-box { background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%); border-left: 4px solid #0d9488; }
+    </style>
+</head>
+<body class="text-slate-800 antialiased py-12 px-4 sm:px-6 lg:px-8">
+
+    <!-- Header -->
+    <header class="max-w-5xl mx-auto mb-16 text-center">
+        <div class="inline-flex items-center bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-bold mb-6 shadow-sm uppercase tracking-wider">
+            <i class="fas fa-book-open mr-2"></i> Deutsch EA - Abiturwissen Deep Dive
+        </div>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">Epochen, Techniken & Textsorten</h1>
+        <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            Ein detaillierter Überblick über die Literatur der Zwischen- und Nachkriegszeit, moderne Montagetechniken sowie eine Tiefenanalyse der wichtigsten epischen Kurzformen. 
+            <strong>Besonders relevant für Textanalysen!</strong>
+        </p>
+    </header>
+
+    <div class="max-w-5xl mx-auto space-y-16">
+
+        <!-- ========================================== -->
+        <!-- SECTION 1: EPOCHEN                         -->
+        <!-- ========================================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-slate-800 mb-8 border-b-2 border-slate-200 pb-2 flex items-center">
+                <i class="fas fa-landmark text-slate-400 mr-4"></i> TEIL 1: Epochen
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Neue Sachlichkeit -->
+                <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden card-hover flex flex-col">
+                    <div class="bg-slate-800 text-white p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-2xl font-bold">Neue Sachlichkeit</h3>
+                            <span class="bg-white/20 px-3 py-1 rounded text-xs font-bold tracking-wider">1918 – 1933</span>
+                        </div>
+                        <p class="text-slate-300 text-sm">Literatur der Weimarer Republik</p>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Nüchterner Objektivismus:</strong> Abkehr vom emotionalen Pathos des Expressionismus. Die Sprache ist kalt, sachlich, reportageartig und oft dokumentarisch.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Alltags- & Massenkultur:</strong> Im Fokus stehen nicht Helden, sondern der "kleine Mann": Angestellte, Fabrikarbeiter, Arbeitslose in der modernen Großstadt (Kino, Revue, Radio).</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Desillusionierung:</strong> Verarbeitung der Traumata des 1. Weltkriegs, Inflation und Wirtschaftskrise. Die Figuren sind oft resigniert und zynisch.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Gebrauchslyrik:</strong> Literatur soll verständlich und nützlich sein, Missstände satirisch aufdecken (z.B. Erich Kästner).</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trümmerliteratur -->
+                <div class="bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden card-hover flex flex-col">
+                    <div class="bg-gray-600 text-white p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-2xl font-bold">Trümmerliteratur</h3>
+                            <span class="bg-white/20 px-3 py-1 rounded text-xs font-bold tracking-wider">1945 – 1950</span>
+                        </div>
+                        <p class="text-gray-200 text-sm">Auch: Kahlschlagliteratur / Stunde Null</p>
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Magischer Nullpunkt:</strong> Die Literatur muss von der NS-Propagandasprache und falschen Idealen gereinigt werden ("Kahlschlag").</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Lakonische Sprache:</strong> Kurz, knapp, ungeschönt, fast schon karg. Keine Metaphern-Flut, sondern nackte Realität.</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Zentrale Motive:</strong> Physische Trümmer (zerstörte Städte) und psychische Trümmer (Kriegsschuld, Trauma, Hunger).</div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-emerald-500 mt-1 mr-3 text-lg"></i>
+                                <div><strong>Die Heimkehrerfigur:</strong> Der orientierungslose Soldat kehrt aus dem Krieg oder der Gefangenschaft zurück und findet sich in der neuen Welt nicht zurecht (Bsp.: Borcherts "Draußen vor der Tür").</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- SECTION 2: ERZÄHLTECHNIK                   -->
+        <!-- ========================================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-slate-800 mb-8 border-b-2 border-slate-200 pb-2 flex items-center">
+                <i class="fas fa-cogs text-slate-400 mr-4"></i> TEIL 2: Erzähltechnik
+            </h2>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-200 card-hover relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-blue-600 text-white px-4 py-1 rounded-bl-xl font-bold text-sm">Moderne Epik</div>
+                <h3 class="text-2xl font-bold text-blue-700 mb-4">Die Montagetechnik</h3>
+                <p class="text-slate-600 mb-6 text-lg">
+                    Die Montage ist eine der wichtigsten Techniken der literarischen Moderne (besonders in der Großstadtliteratur der Weimarer Republik, z.B. Alfred Döblins "Berlin Alexanderplatz").
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-bold text-slate-800 mb-2 border-b border-slate-100 pb-1">Was passiert da genau?</h4>
+                        <p class="text-slate-600">Der Autor schneidet vorgefertigte, fremde Textbausteine aus der Realität aus und klebt sie (wie in einer Collage) scheinbar unkommentiert in die fiktive Erzählung hinein. Die lineare Handlung wird dadurch zerrissen.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 mb-2 border-b border-slate-100 pb-1">Typische Elemente für eine Montage:</h4>
+                        <ul class="list-disc list-inside text-slate-600">
+                            <li>Zeitungsschlagzeilen & Werbeslogans</li>
+                            <li>Wetterberichte oder Fahrpläne</li>
+                            <li>Schlager-Texte oder Bibelzitate</li>
+                            <li>Medizinische oder statistische Berichte</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6 expert-box p-4 rounded-xl">
+                    <h4 class="font-bold text-teal-800 mb-1"><i class="fas fa-lightbulb text-teal-600 mr-2"></i>Wirkung & Funktion (Wichtig für Klausur!)</h4>
+                    <p class="text-teal-900 text-sm">
+                        Die Montage macht die <span class="term-highlight">Reizüberflutung</span>, die Schnelligkeit und die <span class="term-highlight">Fragmentierung</span> des modernen (Großstadt-)Lebens spürbar. Es gibt keine geschlossene Welt mehr, alles prasselt gleichzeitig auf den Menschen (und den Leser) ein. Der Leser muss den Sinngedanken zwischen den harten Schnitten selbst herstellen.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================== -->
+        <!-- SECTION 3: TEXTSORTEN DEEP DIVE            -->
+        <!-- ========================================== -->
+        <section>
+            <h2 class="text-3xl font-bold text-slate-800 mb-8 border-b-2 border-slate-200 pb-2 flex items-center">
+                <i class="fas fa-search-plus text-slate-400 mr-4"></i> TEIL 3: Epische Textsorten im Detail
+            </h2>
+
+            <!-- Kurzgeschichte -->
+            <div class="bg-white rounded-2xl shadow-lg border-t-4 border-t-amber-500 p-8 mb-10 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="bg-amber-100 text-amber-600 w-14 h-14 rounded-full flex items-center justify-center text-2xl mr-4 shadow-sm">
+                        <i class="fas fa-stopwatch"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">Die (moderne) Kurzgeschichte</h3>
+                        <p class="text-slate-500 font-medium">Die perfekte Textsorte für die Trümmerliteratur (Ursprung: American Short Story)</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-right text-amber-500 mt-1 mr-3"></i>
+                            <div><strong>Unmittelbarer Beginn (<span class="term-highlight">In medias res</span>):</strong> Keine Einleitung, keine Vorab-Infos zu Figuren oder Ort. Der Leser wird direkt in die Handlung hineingeworfen.</div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-right text-amber-500 mt-1 mr-3"></i>
+                            <div><strong>Offener Schluss:</strong> Das Problem wird nicht gelöst, das Schicksal der Figur bleibt ungewiss. Die Geschichte reißt oft abrupt ab; der Leser muss weiterdenken.</div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-right text-amber-500 mt-1 mr-3"></i>
+                            <div><strong>Alltagsfiguren:</strong> Keine Helden, keine Adeligen, sondern oft Verlierer, Außenseiter oder einfache Durchschnittsmenschen in einer absoluten Alltagssituation.</div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-arrow-right text-amber-500 mt-1 mr-3"></i>
+                            <div><strong>Einsträngige Handlung & Kürze:</strong> Keine Nebenhandlungen, geringes Personal, begrenzter Zeitraum (oft nur wenige Minuten oder Stunden).</div>
+                        </li>
+                    </ul>
+
+                    <div class="bg-amber-50 p-6 rounded-xl border border-amber-200">
+                        <h4 class="font-bold text-amber-800 text-lg mb-3">Zentrale Analyse-Schwerpunkte:</h4>
+                        
+                        <div class="mb-4">
+                            <span class="font-bold text-amber-900">1. Der Wendepunkt:</span><br>
+                            <span class="text-slate-700 text-sm">Eine scheinbar banale Begebenheit zwingt die Hauptfigur zur Entscheidung oder führt zu einer plötzlichen inneren Erkenntnis, die ihr Leben verändert.</span>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <span class="font-bold text-amber-900">2. Das Eisbergmodell (Hemingway):</span><br>
+                            <span class="text-slate-700 text-sm">Nur 1/8 der Geschichte (Handlung) ist sichtbar. 7/8 (die wahren Gefühle, Motive, Konflikte) liegen "unter Wasser". Der Text ist stark <span class="term-highlight">elliptisch</span> (Auslassungen). Der Leser muss zwischen den Zeilen lesen!</span>
+                        </div>
+
+                        <div>
+                            <span class="font-bold text-amber-900">3. Leitmotive & Dingsymbole:</span><br>
+                            <span class="text-slate-700 text-sm">Oft bekommen banale Gegenstände (z.B. eine kaputte Uhr, Brot) eine extrem hohe symbolische Bedeutung für die innere Verfassung der Figur.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Parabel -->
+            <div class="bg-white rounded-2xl shadow-lg border-t-4 border-t-purple-500 p-8 mb-10 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="bg-purple-100 text-purple-600 w-14 h-14 rounded-full flex items-center justify-center text-2xl mr-4 shadow-sm">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">Die Parabel</h3>
+                        <p class="text-slate-500 font-medium">Eine epische, lehrhafte (didaktische) Kurzform, die verschlüsselt ist.</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                    <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                        <h4 class="font-bold text-slate-800 mb-2 border-b border-slate-200 pb-1 text-center">Das Wirkungsprinzip</h4>
+                        <div class="flex flex-col items-center">
+                            <div class="bg-purple-500 text-white px-4 py-2 rounded-lg text-sm w-full text-center font-bold mb-2">Bildebene (Das was dasteht)</div>
+                            <i class="fas fa-arrow-down text-slate-400 my-1"></i>
+                            <div class="text-xs font-bold text-purple-600 bg-purple-100 px-3 py-1 rounded-full mb-2 border border-purple-200">Übertragung / Tertium Comparationis</div>
+                            <i class="fas fa-arrow-down text-slate-400 my-1"></i>
+                            <div class="bg-slate-800 text-white px-4 py-2 rounded-lg text-sm w-full text-center font-bold">Sachebene (Das was eigentlich gemeint ist)</div>
+                        </div>
+                        <p class="text-xs text-slate-500 mt-3 text-center">
+                            <em>Die Parabel zwingt den Leser, das Erzählte auf die reale Welt oder eine allgemeine Lebensweisheit zu übertragen.</em>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-purple-800 text-lg mb-3">Allgemeine Merkmale:</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-caret-right text-purple-500 mt-1 mr-2"></i>
+                                <span class="text-slate-700">Ist keine Fabel (Tiere), sondern handelt meist von menschlichen Situationen.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-caret-right text-purple-500 mt-1 mr-2"></i>
+                                <span class="text-slate-700">Verzicht auf individuelle Züge: Figuren haben oft keine Namen, Orte keine genauen Bezeichnungen (alles ist allgemein und modellhaft).</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="expert-box p-5 rounded-xl border-l-4 border-purple-600 bg-gradient-to-r from-purple-50 to-white">
+                    <h4 class="font-bold text-purple-900 mb-2"><i class="fas fa-exclamation-triangle text-purple-600 mr-2"></i>Achtung im Abitur: Die MODERNE Parabel (z.B. Franz Kafka)</h4>
+                    <p class="text-slate-700 text-sm mb-2">
+                        Während klassische Parabeln (wie bei Lessing) eine eindeutige Lehre haben, ist die moderne Parabel tückisch!
+                    </p>
+                    <ul class="list-disc list-inside text-sm text-slate-700 space-y-1">
+                        <li><strong>Vieldeutigkeit:</strong> Es gibt kein eindeutiges <span class="term-highlight">Tertium Comparationis</span> (Punkt der Vergleichbarkeit) mehr.</li>
+                        <li><strong>Desorientierung:</strong> Bildebene und Sachebene lassen sich nicht mehr klar trennen. Die Handlung auf der Bildebene ist oft absurd, albtraumhaft oder paradox.</li>
+                        <li><strong>Keine Lehre:</strong> Sie liefert keine Antworten mehr, sondern wirft nur noch irritierende Fragen über die Existenz des Menschen (oder die Bürokratie/Gesellschaft) auf.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Novelle -->
+            <div class="bg-white rounded-2xl shadow-lg border-t-4 border-t-rose-500 p-8 card-hover">
+                <div class="flex items-center mb-6">
+                    <div class="bg-rose-100 text-rose-600 w-14 h-14 rounded-full flex items-center justify-center text-2xl mr-4 shadow-sm">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-extrabold text-slate-900">Die Novelle</h3>
+                        <p class="text-slate-500 font-medium">Mittellange Erzählung (Oft im Bürgerlichen Realismus zu finden)</p>
+                    </div>
+                </div>
+
+                <div class="bg-rose-50 p-4 rounded-xl mb-6 border border-rose-200 text-center">
+                    <p class="text-lg font-bold text-rose-800 font-serif italic">
+                        "Was ist eine Novelle anders als eine sich ereignete unerhörte Begebenheit."
+                    </p>
+                    <p class="text-sm text-rose-600 mt-1">— Johann Wolfgang von Goethe</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                    
+                    <div>
+                        <h4 class="font-bold text-rose-700 mb-2 border-b border-rose-100 pb-1">1. Die "unerhörte Begebenheit"</h4>
+                        <p class="text-slate-600 text-sm">Das absolute Kernmerkmal! Es muss ein Ereignis stattfinden, das außergewöhnlich, neuartig oder schockierend ist. ABER: Es muss <span class="font-bold">glaubhaft und in der Realität möglich</span> sein (keine Märchenelemente).</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-rose-700 mb-2 border-b border-rose-100 pb-1">2. Geschlossene Form (Dramenähnlich)</h4>
+                        <p class="text-slate-600 text-sm">Eine Novelle ist streng strukturiert wie ein klassisches Drama: Exposition (Einleitung) → steigende Handlung → Höhe- und Wendepunkt (<span class="term-highlight">Peripetie</span>) → fallende Handlung → Lösung/Katastrophe. Keine Abschweifungen!</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-rose-700 mb-2 border-b border-rose-100 pb-1">3. Das Dingsymbol (Falkentheorie)</h4>
+                        <p class="text-slate-600 text-sm">Nach Paul Heyses "Falkentheorie" hat eine gute Novelle oft einen konkreten Gegenstand (oder ein Tier), der in der Handlung real vorkommt, aber tief symbolisch aufgeladen ist und den Konflikt anzeigt (Leitmotiv).</p>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-rose-700 mb-2 border-b border-rose-100 pb-1">4. Rahmen- und Binnenhandlung</h4>
+                        <p class="text-slate-600 text-sm">Sehr häufig! Ein Erzähler in der Gegenwart (Rahmen) trifft sich z.B. mit Menschen und beginnt dann, die eigentliche Novelle (die "unerhörte Begebenheit" aus der Vergangenheit) als Binnenhandlung zu erzählen. Schafft Distanz und Objektivität.</p>
+                    </div>
+
+                    <div class="md:col-span-2 mt-2">
+                         <h4 class="font-bold text-rose-700 mb-2 border-b border-rose-100 pb-1">5. Einsträngigkeit & Isolation</h4>
+                        <p class="text-slate-600 text-sm">Im Gegensatz zum Roman gibt es keine Verzweigungen, keine komplexe Entwicklung der Figur über Jahre. Die Novelle fokussiert sich wie ein Scheinwerfer auf diesen <em>einen</em> Konflikt, der die Figuren aus der Bahn wirft.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-5xl mx-auto mt-16 text-center text-slate-500 text-sm border-t border-slate-300 pt-8 pb-8">
+        <p>Erstellt für das Deutsch Abitur (EA). Merke dir besonders die Fachbegriffe wie <span class="font-bold">Eisbergmodell</span>, <span class="font-bold">In medias res</span> und <span class="font-bold">Tertium Comparationis</span>!</p>
+    </footer>
+
+</body>
+</html>
